@@ -1,0 +1,10 @@
+body {
+    background-color: aliceblue;
+    margin: 0 auto;
+    padding: 0;
+}
+
+header {
+    background-color: black;
+    color: aliceblue;
+}
