@@ -1,10 +1,32 @@
 body {
-    background-color: aliceblue;
     margin: 0 auto;
-    padding: 0;
+    padding: 0px;
 }
 
 
 .header-img {
     background-image: url(../WineClub-Homepage/resources/daniel-vogel-PUDQGDlM_V8-unsplash.jpg);
+    padding: 0px;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    height: 500px;
+    background-size: cover;
 }
+
+header {
+    margin: 0 auto;
+    padding: 0;
+}
+
+.nav-header p {
+    display: inline;
+    padding: 1.2rem;
+    color: white;
+    text-transform: uppercase;
+    float: right;
+    padding-right: 0.8rem;
+    margin: 0 auto;
+    font-size: 15px;
+    font-family: 'Darker Grotesque', sans-serif;
+}
+
