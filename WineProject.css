@@ -4,29 +4,46 @@ body {
 }
 
 
-.header-img {
-    background-image: url(../WineClub-Homepage/resources/daniel-vogel-PUDQGDlM_V8-unsplash.jpg);
+.header {
+    background-color: black;
     padding: 0px;
+    /**  
     margin: 0 auto;
-    background-repeat: no-repeat;
-    height: 500px;
+  background-repeat: no-repeat;
+    height: 900px;
     background-size: cover;
+    */
+
 }
 
 header {
     margin: 0 auto;
     padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    background-color: black;
+    height: 30px;
 }
 
 .nav-header p {
     display: inline;
     padding: 1.2rem;
-    color: white;
+    color: #808080;
     text-transform: uppercase;
     float: right;
     padding-right: 0.8rem;
     margin: 0 auto;
     font-size: 15px;
     font-family: 'Darker Grotesque', sans-serif;
+    font-weight: bold;
+    padding-top: 5px;
+    
+}
+
+.wine {
+    width: auto;
+    height : auto;
+    max-height: 100%;
+    max-width: 100%;
 }
 
