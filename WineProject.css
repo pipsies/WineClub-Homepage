@@ -7,13 +7,6 @@ body {
 .header {
     background-color: black;
     padding: 0px;
-    /**  
-    margin: 0 auto;
-  background-repeat: no-repeat;
-    height: 900px;
-    background-size: cover;
-    */
-
 }
 
 header {
@@ -27,15 +20,14 @@ header {
 
 .nav-header p {
     display: inline;
-    padding: 1.2rem;
-    color: #808080;
+    padding: 1.8rem;
+    color: white;
     text-transform: uppercase;
     float: right;
     padding-right: 0.8rem;
     margin: 0 auto;
-    font-size: 15px;
-    font-family: 'Darker Grotesque', sans-serif;
-    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Smooch Sans', sans-serif;
     padding-top: 5px;
     
 }
@@ -47,3 +39,20 @@ header {
     max-width: 100%;
 }
 
+.wine-txt {
+    font-family: 'Smooch Sans', sans-serif;
+    top: 10%;
+    position: absolute;
+    color: white;
+    font-size: 50px;
+
+    
+}
+
+.splash-img {
+    position: relative;
+    text-align: center;
+}
+.wine-txt p {
+    text-align: center;
+}
