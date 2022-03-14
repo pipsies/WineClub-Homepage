@@ -15,7 +15,8 @@ header {
     display: flex;
     justify-content: flex-end;
     background-color: black;
-    height: 30px;
+    height: 3.125rem;
+
 }
 
 .nav-header p {
@@ -26,9 +27,10 @@ header {
     float: right;
     padding-right: 0.8rem;
     margin: 0 auto;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-family: 'Smooch Sans', sans-serif;
-    padding-top: 5px;
+    padding-top: 0.313rem;
+
     
 }
 
@@ -44,7 +46,7 @@ header {
     top: 10%;
     position: absolute;
     color: white;
-    font-size: 50px;
+    font-size: 3.125rem;
 
     
 }
@@ -55,4 +57,42 @@ header {
 }
 .wine-txt p {
     text-align: center;
+    border: 0.125rem solid white;
+
+}
+
+section.wine-txt {
+    margin: 0.938rem;
+}
+
+.event-txt {
+    font-family: 'Smooch Sans', sans-serif;
+    text-transform: uppercase;
+    font-weight: 100;
+    border: 0.12rem solid white;
+    margin: 0 auto;
+    width: 20%;
+    margin-top: 50rem;
+    font-size: 3.12rem;
+}
+
+.events {
+    display: flex;
+    justify-content: space-between;
+    margin: 1.25rem;
+    text-align: center;
+}
+
+.event-header {
+    font-family: 'Smooch Sans', sans-serif;
+    font-size: 1.25rem;
+}
+
+.event-info {
+    height: 12.5rem;
+    width: 25rem;
+}
+
+.date {
+    font-style: italic;
 }
