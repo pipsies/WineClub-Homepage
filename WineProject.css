@@ -45,8 +45,12 @@ header {
     font-family: 'Smooch Sans', sans-serif;
     top: 10%;
     position: absolute;
-    color: white;
+    color: black;
     font-size: 3.125rem;
+    text-align: center;
+    border: 0.125rem solid black;
+    background-color: #d4af37;
+    opacity: 0.6;
 
     
 }
@@ -54,11 +58,12 @@ header {
 .splash-img {
     position: relative;
     text-align: center;
-}
-.wine-txt p {
-    text-align: center;
-    border: 0.125rem solid white;
-
+    background-image: url(../WineClub-Homepage/resources/mae1-mu-rgEHTLwaI_8-unsplash.jpg);
+    height: 900px;
+    background-size:cover;
+    background-repeat: no-repeat;
+    
+    
 }
 
 section.wine-txt {
@@ -79,20 +84,160 @@ section.wine-txt {
 .events {
     display: flex;
     justify-content: space-between;
-    margin: 1.25rem;
+    padding: 1.25rem;
     text-align: center;
+    margin-bottom: 0;
+    padding-top: 20px;
+    margin-top: 0rem;
+    padding-top: 80px;
+    background-color: black;
+
+
+ 
 }
 
 .event-header {
     font-family: 'Smooch Sans', sans-serif;
-    font-size: 1.25rem;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    height: 20px;
+    margin-top: 10px;
+    color: #d4af37;
+ 
 }
 
-.event-info {
-    height: 12.5rem;
-    width: 25rem;
+.event-header p {
+    margin-left: 5px;
+    margin-right: 5px;
+    border: 2px solid #d4af37;
+    width: 230px;
+    height: 150px;
+    padding-top: 10px;
+
 }
+
+.event-header h1 {
+    margin: 0 auto;
+    width: 150px;
+    opacity: 0.6;
+    color: #d4af37;
+}
+.event-info {
+    height: 15rem;
+    width: 20rem;
+    opacity: 0.6;
+    border: 2px solid #d4af37;
+    justify-content: center;
+
+}
+
+
+
+.date-info {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-weight: bold;
+    color: #d4af37;
+    padding-bottom: 50px;
+    background-color: black;
+  
+}
+
+.event-info p {
+    line-height: 1.60rem;
+    color: #d4af37;
+}
+
+
 
 .date {
-    font-style: italic;
+    height: 40px;
+    width: 220px;
+    text-align: center;
+    opacity: 0.6;
+}
+
+.date-info p {
+    background-color: black;
+    height: 45px;
+    text-align: center;
+    padding-top: 5px;
+    border: 0.5px solid black;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: 'Smooch Sans', sans-serif;
+    letter-spacing: 0.4rem;
+    font-size: 15px;
+
+    
+}
+
+.ceo-img {
+    width: 380px;
+    height: 500px;
+    border: 2px solid #d4af37;
+  
+}
+
+.ceo {
+    padding-left: 20px;
+    padding-top: 50px;
+    background-color: black;
+    width: 300px;
+    height: 300px;
+    margin-left: 50px;
+    border: 2px solid #d4af37;
+    margin-top: 50px;
+
+}
+
+
+
+.title-1 h1{
+    text-align: center;
+    font-family: 'Smooch Sans', sans-serif;
+    border: 2px solid #d4af37;
+    margin: 0 auto;
+    bottom: 50%;
+    color: black;
+    background-color: #d4af37;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+    height: 60px;
+    padding-top: 30px;
+
+  
+}
+
+.title-1 {
+    padding-top: 840px;
+    margin: 0 auto;
+    border-bottom: 0.5px solid black;
+    opacity: 0.6;
+}
+
+.img-bkg {
+    background-color: black;
+    margin-top: 100px;
+    height: 500px;
+    border-top: 2px solid #d4af37;;
+
+}
+
+footer {
+    background-color: black;
+    margin: 0 auto;
+    padding: 0px;
+    color: #d4af37;
+}
+
+.footer-txt {
+    display: inline;
+    justify-content: space-between;
+    text-align: center;
 }
