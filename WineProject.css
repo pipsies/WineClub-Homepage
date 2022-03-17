@@ -258,8 +258,9 @@ div.block {
     color: #d4af37;
     font-family: 'Smooch Sans', sans-serif;
     border: 1px solid #d4af37;
-    width: 800px;
-    height: 300px;
+    width: 900px;
+    height: 500px;
+    font-size: 50px;
 }
 
 .ceo-about {
