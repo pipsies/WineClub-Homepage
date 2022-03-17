@@ -189,6 +189,7 @@ section.wine-txt {
     margin-left: 50px;
     border: 2px solid #d4af37;
     margin-top: 50px;
+    display: inline-flex;
 
 }
 
@@ -245,8 +246,23 @@ div.block {
     color: #d4af37;
 }
 
-
-.ceo h1 , p {
+.ceo-header {
     color: #d4af37;
     margin-left: 800px;
 }
+
+.ceo-para {
+    color: #d4af37;
+    margin-left: 800px;
+}
+
+#ceo-name p {
+    color: #d4af37;
+    font-family: 'Smooch Sans', sans-serif;
+}
+
+#ceo-name h1 {
+    letter-spacing: 1rem;
+    text-transform: uppercase
+}
+
