@@ -12,8 +12,6 @@ body {
 header {
     margin: 0 auto;
     padding: 0;
-    display: flex;
-    justify-content: flex-end;
     background-color: black;
     height: 3.125rem;
 
@@ -36,40 +34,17 @@ header {
     
 }
 
-.wine {
-    width: auto;
-    height : auto;
-    max-height: 100%;
-    max-width: 100%;
-}
 
-.wine-txt {
-    font-family: 'Smooch Sans', sans-serif;
-    top: 10%;
-    position: absolute;
-    color: black;
-    font-size: 3.125rem;
-    text-align: center;
-    border: 0.125rem solid black;
-    background-color: #d4af37;
-    opacity: 0.6;
-
-    
-}
 
 .splash-img {
     position: relative;
     text-align: center;
     background-image: url(../WineClub-Homepage/resources/mae1-mu-rgEHTLwaI_8-unsplash.jpg);
-    height: 900px;
+    height: 700px;
     background-size:cover;
     background-repeat: no-repeat;
-    
-    
-}
+    margin-top: 50px;
 
-section.wine-txt {
-    margin: 0.938rem;
 }
 
 .event-txt {
@@ -106,27 +81,25 @@ section.wine-txt {
 }
 
 .event-header p {
-    margin-left: 10px;
-    margin-right: 5px;
+   
     border: 2px solid #d4af37;
     width: 230px;
     height: 150px;
     padding-top: 10px;
-    background-color: black;
+    color: black;
+    line-height: 1.5rem;
 
 }
 
 .event-header h1 {
     margin: 0 auto;
     width: 150px;
-   
-    color: #d4af37;
+    color: black
 }
 
 .event-info {
     height: 14rem;
     width: 15rem;
-    border: 2px solid #d4af37;
     justify-content:left;
 
 
@@ -137,21 +110,14 @@ section.wine-txt {
     display: flex;
     justify-content: space-between;
     text-align: left;
-    padding-left: 4rem;
-    padding-right: 4rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
     font-weight: bold;
     color: #d4af37;
     padding-bottom: 50px;
-    background-color: black;
+    border-bottom: 1px solid #d4af37;
   
 }
-
-.event-info p {
-    line-height: 1.60rem;
-    color: #d4af37;
-}
-
-
 
 .date {
     height: 40px;
@@ -161,18 +127,12 @@ section.wine-txt {
 }
 
 .date-info p {
-    background-color: black;
     height: 45px;
     text-align: center;
     padding-top: 5px;
-    border: 0.5px solid black;
-    margin-left: 10px;
-    margin-right: 10px;
     font-family: 'Smooch Sans', sans-serif;
     letter-spacing: 0.4rem;
     font-size: 15px;
-
-    
 }
 
 .ceo-img {
@@ -200,26 +160,17 @@ section.wine-txt {
 .title-1 h1{
     text-align: center;
     font-family: 'Smooch Sans', sans-serif;
-    border: 2px solid #d4af37;
-    margin: 0 auto;
-    bottom: 50%;
+    border-bottom: 2px solid #d4af37;
+    margin: 0px auto;
     color: black;
-    background-color: #d4af37;
     font-size: 20px;
     text-transform: uppercase;
     letter-spacing: 0.5rem;
     height: 60px;
     padding-top: 30px;
-
   
 }
 
-.title-1 {
-    padding-top: 840px;
-    margin: 0 auto;
-    border-bottom: 0.5px solid black;
-
-}
 
 .img-bkg {
     background-color: black;
@@ -228,8 +179,6 @@ section.wine-txt {
     height: 200px;
     display: flex;
     font-family: 'Smooch Sans', sans-serif;
-
-
 }
 
 footer {
@@ -261,6 +210,7 @@ div.block {
     width: 900px;
     height: 500px;
     font-size: 50px;
+    margin: 0 auto;
 }
 
 .ceo-about {
