@@ -3,38 +3,45 @@ body {
     padding: 0px;
 }
 
-
-.header {
-    background-color: black;
-    padding: 0px;
-}
-
-header {
-    margin: 0 auto;
-    padding: 0;
-    background-color: black;
-    height: 3.125rem;
-
+.top-header {
+    display: flex;
 }
 
 .nav-header p {
-    display: inline;
-    padding: 1.8rem;
-    color: #d4af37;
+    color: white;
     text-transform: uppercase;
-    float: right;
-    padding-right: 0.8rem;
-    margin: 0 auto;
-    font-size: 1.25rem;
+    margin: 10px;
+    font-size: 1.2rem;
     font-family: 'Smooch Sans', sans-serif;
-    padding-top: 0.313rem;
-    letter-spacing: 0.5rem;
+    letter-spacing: 0.1rem;
     font-weight: bold;
+    display: inline;
+    text-decoration: overline;
 
-    
 }
 
+.nav-header {
+height: 40px;
+display: flex;
+align-items: center;
+padding-left: 40%;
+color: white;
 
+}
+
+.logo h1 {
+    font-family: 'Smooch Sans', sans-serif;
+    font-size: 3rem;
+    margin-bottom: 5px;
+    color:#d4af37;
+    font-weight: 400;
+    letter-spacing: 1rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    margin: 0px auto;
+    
+}
 
 .splash-img {
     position: relative;
@@ -43,7 +50,7 @@ header {
     height: 700px;
     background-size:cover;
     background-repeat: no-repeat;
-    margin-top: 50px;
+    
 
 }
 
@@ -139,6 +146,7 @@ header {
     width: 380px;
     height: 500px;
     border: 2px solid #d4af37;
+
   
 }
 
@@ -210,11 +218,13 @@ div.block {
     width: 900px;
     height: 500px;
     font-size: 50px;
-    margin: 0 auto;
+    margin-bottom: 10px;
+    margin-top: 0px;
 }
 
 .ceo-about {
     margin-left: 400px;
+    display: flex;
    
 }
 
@@ -239,3 +249,4 @@ div.block {
     background-color: black;
     display: flex;
 }
+
