@@ -91,6 +91,7 @@ figcaption {
     text-transform: uppercase;
     font-weight: bold;
     font-family: 'Smooch Sans', sans-serif;
+    text-decoration: #d4af37 underline 3px;
 }
 
 p.date {
@@ -163,7 +164,7 @@ footer {
     font-size: 15px;
     font-family: 'Smooch Sans', sans-serif;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     
 }
 
